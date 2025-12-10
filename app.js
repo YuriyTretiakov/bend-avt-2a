@@ -29,7 +29,7 @@ console.log(err);
 // Закрываем подключение при завершении работы или при ошибке 
 2 
 await mongoClient.close(); 
-console.log("Подключение закрыто"); 
+console.log("Подключение закрыто."); 
 } 
 } 
 run().catch(console.error); 
