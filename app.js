@@ -4,7 +4,7 @@ const port = 3040;
 const server = http.createServer((req, res) => { 
 res.statusCode = 200; 
 res.setHeader('Content-Type', 'text/plain'); 
-res.end('Hello World'); 
+res.end('Зай, я тебя люблю!'); 
 }); 
 server.listen(port, hostname, () => { 
 console.log(`Server running at http://${hostname}:${port}/`); 
